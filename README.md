@@ -8,7 +8,7 @@ Welcome to my frontend project showcase — a collection of responsive, interact
 
 | No. | Project Name         | Technologies Used         | Live / Preview                                |
 |-----|----------------------|---------------------------|------------------------------------------------|
-| 1   | Todo Tasks Manager   | HTML, CSS, JavaScript     | [🔗 Live Preview](https://todo-tasks-manager.netlify.app/) |
+| 1   | Todo Tasks Manager   | HTML, CSS, JavaScript     | [Live Preview](https://todo-tasks-manager.netlify.app/) |
 | 2   |                      |                           |                                                |
 | 3   |                      |                           |                                                |
 | 4   |                      |                           |                                                |
