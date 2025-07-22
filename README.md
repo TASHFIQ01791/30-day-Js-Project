@@ -10,7 +10,7 @@ Welcome to my frontend project showcase — a collection of responsive, interact
 |-----|----------------------|---------------------------|------------------------------------------------|
 | 1   | Todo Tasks Manager   | HTML, CSS, JavaScript     | [Live Preview](https://todo-tasks-manager.netlify.app/) |
 | 2   | Calculator           | HTML, CSS, JavaScript     | [Live Preview](https://tashfiq-calculator.netlify.app/) |                                               |
-| 3   |                      |                           |                                                |
+| 3   | Age Calculator       | HTML, CSS, JavaScript     | [Live Preview](https://realtime-age-calculator-project.netlify.app/) |                                                     |
 | 4   |                      |                           |                                                |
 | 5   |                      |                           |                                                |
 | 6   |                      |                           |                                                |
