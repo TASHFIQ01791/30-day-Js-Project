@@ -1,0 +1,166 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+:root {
+  --main-color: #1f2937;
+  --bg-color: #f9fafb;
+  --accent-color: deeppink;
+  --button-color: #ff86c0;
+}
+
+.dark-theme {
+  --main-color: #ffffff;
+  --bg-color: #1e1e1e;
+}
+
+body {
+  background-color: var(--bg-color);
+  color: var(--main-color);
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.container {
+  padding: 2rem 8rem;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.nav-right {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.nav-right ul {
+  display: flex;
+  gap: 1.5rem;
+}
+
+ul li {
+  list-style: none;
+}
+
+ul li a {
+  text-decoration: none;
+  color: var(--main-color);
+  font-weight: 600;
+  transition: color 0.2s ease;
+}
+
+ul li a:hover {
+  color: var(--accent-color);
+}
+
+.logo {
+  width: 120px;
+}
+
+.theme-toggle {
+  width: 24px;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.theme-toggle:hover {
+  transform: rotate(20deg);
+}
+
+.hero {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 3rem;
+  margin-top: 4rem;
+}
+
+.hero-left {
+  flex: 1 1 45%;
+}
+
+.hero-right {
+  flex: 1 1 45%;
+  display: flex;
+  justify-content: center;
+}
+
+.hero-left h1 {
+  font-size: 2.8rem;
+  text-transform: capitalize;
+}
+
+.hero-left p {
+  margin-top: 1rem;
+  font-size: 1.1rem;
+  line-height: 1.7;
+}
+
+.hero-left span {
+  color: var(--accent-color);
+}
+
+button {
+  background-color: var(--button-color);
+  color: var(--main-color);
+  border: none;
+  padding: 0.9rem 1.7rem;
+  border-radius: 0.4rem;
+  font-weight: 600;
+  margin-top: 1.5rem;
+  transition: background-color 0.3s ease;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: var(--accent-color);
+  color: #fff;
+}
+
+.hero img {
+  width: 100%;
+  max-width: 700px;
+  animation: moveImage 1.8s infinite alternate;
+}
+
+@keyframes moveImage {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-1rem);
+  }
+}
+
+/* Responsive */
+@media (max-width: 992px) {
+  .container {
+    padding: 2rem 2rem;
+  }
+
+  .hero {
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+  }
+
+  .hero-left,
+  .hero-right {
+    flex: 1 1 100%;
+  }
+
+  .nav-right ul {
+    gap: 1rem;
+  }
+}
