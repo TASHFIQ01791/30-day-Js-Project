@@ -13,7 +13,7 @@ Welcome to my frontend project showcase — a collection of responsive, interact
 | 3   | Age Calculator       | HTML, CSS, JavaScript     | [Live Preview](https://realtime-age-calculator-project.netlify.app/) |                                                     |
 | 4   | Comming Soon Timer   | HTML, CSS, JavaScript     | [Live Preview](https://timer-comming-soon-project.netlify.app/) |                                                   |
 | 5   | Dark Light Theme     | HTML, CSS, JavaScript     | [Live Preview](https://my-website-have-dark-white-mode.netlify.app/) |                                                 |
-| 6   |                      |                           |                                                |
+| 6   | Varietes of a product| HTML, CSS, JavaScript     | [Live Preview](https://same-product-differnt-types-images.netlify.app/) |                                                |
 | 7   |                      |                           |                                                |
 | 8   |                      |                           |                                                |
 | 9   |                      |                           |                                                |
