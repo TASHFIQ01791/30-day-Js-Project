@@ -14,7 +14,7 @@ Welcome to my frontend project showcase — a collection of responsive, interact
 | 4   | Comming Soon Timer   | HTML, CSS, JavaScript     | [Live Preview](https://timer-comming-soon-project.netlify.app/) |                                                   |
 | 5   | Dark Light Theme     | HTML, CSS, JavaScript     | [Live Preview](https://my-website-have-dark-white-mode.netlify.app/) |                                                 |
 | 6   | Varietes of a product| HTML, CSS, JavaScript     | [Live Preview](https://same-product-differnt-types-images.netlify.app/) |                                                |
-| 7   |                      |                           |                                                |
+| 7   | Image Grid System    | HTML, CSS, JavaScript     | [Live Preview](https://image-grid-js.netlify.app/) |                            |                                                |
 | 8   |                      |                           |                                                |
 | 9   |                      |                           |                                                |
 | 10  |                      |                           |                                                |
