@@ -4,26 +4,41 @@
   box-sizing: border-box;
 }
 
+:root {
+  --para-color: #333333;
+  --body-background-color: #f5f5f5;
+  --header-background-color: #ffffff;
+  --header-color:#333;
+}
+
+.dark-theme {
+  --para-color: #e0e0e0;
+  --body-background-color: #121212;
+  --header-background-color: #1e1e1e;
+  --header-color:#fff;
+
+}
+
 body {
   font-family: Arial, Helvetica, sans-serif;
-  background-color: #f9f9f9;
+  background-color: var(--body-background-color);
 }
 
 .header {
   text-align: center;
   padding: 1rem 2rem;
-  background-color: #fff;
+  background-color: var(--header-background-color);
   line-height: 1.8rem;
 }
 
 .header h2 {
   font-size: 1.5rem;
-  color: #333;
+  color: var(--header-color);
 }
 
 .header p {
   font-size: 1rem;
-  color: #666;
+  color: var(--para-color);
 }
 
 /* Icon part */
@@ -34,6 +49,7 @@ body {
   font-size: 1.4rem;
   margin-top: 0.5rem;
   cursor: pointer;
+  color: var(--para-color);
 }
 
 .icons i:hover {
