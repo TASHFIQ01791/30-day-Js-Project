@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Intersection Observer || Horizontal Logo Scroll</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="companies-container">
+      <!-- company heading  -->
+      <div id="companies-title">
+        <img
+          src="https://cdn-icons-png.flaticon.com/512/1828/1828479.png"
+          alt="Star"
+          class="star"
+        />
+        <span>APPS POWERED BY TODESKTOP</span>
+        <img
+          src="https://cdn-icons-png.flaticon.com/512/1828/1828479.png"
+          alt="Star"
+          class="star flipped"
+        />
+      </div>
+      <!-- line group  -->
+      <div id="line-group">
+        <!-- line 1 -->
+        <div id="line1">
+          <div class="logo-card">
+            <img src="images/asset 3.png" alt="company logo" />
+            <span>logo1</span>
+          </div>
+          <div class="logo-card">
+            <img src="images/asset 4.png" alt="company logo" />
+            <span>logo2</span>
+          </div>
+          <div class="logo-card">
+            <img src="images/asset 5.png" alt="company logo" />
+            <span>logo3</span>
+          </div>
+          <div class="logo-card">
+            <img src="images/asset 6.png" alt="company logo" />
+            <span>logo4</span>
+          </div>
+          <div class="logo-card">
+            <img src="images/asset 7.png" alt="company logo" />
+            <span>logo5</span>
+          </div>
+          <div class="logo-card">
+            <img src="images/asset 8.png" alt="company logo" />
+            <span>logo6</span>
+          </div>
+
+          <div class="logo-card">
+            <img src="images/asset 9.png" alt="company logo" />
+            <span>logo7</span>
+          </div>
+          <div class="logo-card">
+            <img src="images/asset 10.png" alt="company logo" />
+            <span>logo8</span>
+          </div>
+
+          <div class="logo-card">
+            <img src="images/asset 6.png" alt="company logo" />
+            <span>logo4</span>
+          </div>
+          <div class="logo-card">
+            <img src="images/asset 7.png" alt="company logo" />
+            <span>logo5</span>
+          </div>
+          <div class="logo-card">
+            <img src="images/asset 8.png" alt="company logo" />
+            <span>logo6</span>
+          </div>
+          <div class="logo-card">
+            <img src="images/asset 11.png" alt="company logo" />
+            <span>log9</span>
+          </div>
+          <div class="logo-card">
+            <img src="images/asset 12.png" alt="company logo" />
+            <span>logo10</span>
+          </div>
+          <div class="logo-card">
+            <img src="images/asset 6.png" alt="company logo" />
+            <span>logo4</span>
+          </div>
+          <div class="logo-card">
+            <img src="images/asset 7.png" alt="company logo" />
+            <span>logo5</span>
+          </div>
+          <div class="logo-card">
+            <img src="images/asset 8.png" alt="company logo" />
+            <span>logo6</span>
+          </div>
+          <div class="logo-card">
+            <img src="images/asset 13.png" alt="company logo" />
+            <span>logo11</span>
+          </div>
+          <div class="logo-card">
+            <img src="images/asset 14.png" alt="company logo" />
+            <span>logo12</span>
+          </div>
+
+          <div class="logo-card">
+            <img src="images/asset 6.png" alt="company logo" />
+            <span>logo4</span>
+          </div>
+          <div class="logo-card">
+            <img src="images/asset 7.png" alt="company logo" />
+            <span>logo5</span>
+          </div>
+          <div class="logo-card">
+            <img src="images/asset 8.png" alt="company logo" />
+            <span>logo6</span>
+          </div>
+        </div>
+        <!-- line 2 -->
+        <div id="line2">
+          <div class="logo-card">
+            <img src="images/asset 9.png" alt="company logo" />
+            <span>logo13</span>
+          </div>
+          <div class="logo-card">
+            <img src="images/asset 10.png" alt="company logo" />
+            <span>logo14</span>
+          </div>
+          <div class="logo-card">
+            <img src="images/asset 11.png" alt="company logo" />
+            <span>logo15</span>
+          </div>
+          <div class="logo-card">
+            <img src="images/asset 12.png" alt="company logo" />
+            <span>logo16</span>
+          </div>
+          <div class="logo-card">
+            <img src="images/asset 13.png" alt="company logo" />
+            <span>logo17</span>
+          </div>
+          <div class="logo-card">
+            <img src="images/asset 14.png" alt="company logo" />
+            <span>logo18</span>
+          </div>
+
+          <div class="logo-card">
+            <img src="images/asset 18.png" alt="company logo" />
+            <span>logo19</span>
+          </div>
+          <div class="logo-card">
+            <img src="images/asset 19.png" alt="company logo" />
+            <span>logo20</span>
+          </div>
+          <div class="logo-card">
+            <img src="images/asset 20.png" alt="company logo" />
+            <span>logo21</span>
+          </div>
+          <div class="logo-card">
+            <img src="images/asset 24.png" alt="company logo" />
+            <span>logo22</span>
+          </div>
+          <div class="logo-card">
+            <img src="images/asset 26.png" alt="company logo" />
+            <span>logo23</span>
+          </div>
+          <div class="logo-card">
+            <img src="images/asset 12.png" alt="company logo" />
+            <span>logo16</span>
+          </div>
+          <div class="logo-card">
+            <img src="images/asset 13.png" alt="company logo" />
+            <span>logo17</span>
+          </div>
+          <div class="logo-card">
+            <img src="images/asset 14.png" alt="company logo" />
+            <span>logo18</span>
+          </div>
+          <div class="logo-card">
+            <img src="images/asset 18.png" alt="company logo" />
+            <span>logo19</span>
+          </div>
+          <div class="logo-card">
+            <img src="images/asset 19.png" alt="company logo" />
+            <span>logo20</span>
+          </div>
+
+          <div class="logo-card">
+            <img src="images/asset 18.png" alt="company logo" />
+            <span>logo19</span>
+          </div>
+          <div class="logo-card">
+            <img src="images/asset 8.png" alt="company logo" />
+            <span>logo24</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
