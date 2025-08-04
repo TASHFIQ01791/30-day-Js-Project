@@ -15,8 +15,8 @@ Welcome to my frontend project showcase — a collection of responsive, interact
 | 5   | Dark Light Theme     | HTML, CSS, JavaScript     | [Live Preview](https://my-website-have-dark-white-mode.netlify.app/) |                                                 |
 | 6   | Varietes of a product| HTML, CSS, JavaScript     | [Live Preview](https://same-product-differnt-types-images.netlify.app/) |                                                |
 | 7   | Image Grid System    | HTML, CSS, JavaScript     | [Live Preview](https://image-grid-js.netlify.app/) |                            |                                                |
-| 8   | Login Form           |HTML, CSS, JavaScript      | [Live Preview](https://multi-step-registration-login-form.netlify.app/) |                                               |
-| 9   |                      |                           |                                                |
+| 8   | Login Form           | HTML, CSS, JavaScript     | [Live Preview](https://multi-step-registration-login-form.netlify.app/) |                                               |
+| 9   | Intersection Observer| HTML, CSS, JavaScript     | [Live Preview](https://intersection-observer-scrolling.netlify.app/) |                                              |
 | 10  |                      |                           |                                                |
 | 11  |                      |                           |                                                |
 | 12  |                      |                           |                                                |
